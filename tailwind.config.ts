@@ -10,9 +10,11 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))',
+          DEFAULT: '#0a182e',
+          foreground: '#ffffff',
         },
+        'background-light': '#f6f7f8',
+        'background-dark': '#121820',
         gold: {
           50: '#FDF8E8',
           100: '#F9EDD3',

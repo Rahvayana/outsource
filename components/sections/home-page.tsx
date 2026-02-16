@@ -198,25 +198,25 @@ export default function HomePage() {
       </section>
 
       {/* Trusted By */}
-      <section className="py-12 bg-gray-50 dark:bg-gray-900/50 border-y border-gray-100 dark:border-white/5">
+      <section className="py-12 bg-background-light dark:bg-background-dark border-y border-gray-100 dark:border-white/5">
         <div className="container mx-auto px-6">
           <p className="text-center text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-widest mb-8">
             {t('trusted.title')}
           </p>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-60 dark:opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
-            <div className="text-2xl font-serif font-bold text-gray-900 dark:text-white">MARRIOTT</div>
-            <div className="text-2xl font-sans font-black tracking-tighter text-gray-900 dark:text-white italic">HILTON</div>
-            <div className="text-xl font-serif uppercase tracking-widest text-gray-900 dark:text-white border-2 border-gray-900 dark:border-white p-1">Hyatt</div>
-            <div className="text-2xl font-sans font-bold text-gray-900 dark:text-white flex items-center gap-1">
-              <span className="block w-6 h-6 bg-gray-900 dark:bg-white rounded-full"></span> ACCOR
+            <div className="text-2xl font-serif font-bold text-primary dark:text-white">MARRIOTT</div>
+            <div className="text-2xl font-sans font-black tracking-tighter text-primary dark:text-white italic">HILTON</div>
+            <div className="text-xl font-serif uppercase tracking-widest text-primary dark:text-white border-2 border-primary dark:border-white p-1">Hyatt</div>
+            <div className="text-2xl font-sans font-bold text-primary dark:text-white flex items-center gap-1">
+              <span className="block w-6 h-6 bg-primary dark:bg-white rounded-full"></span> ACCOR
             </div>
-            <div className="text-2xl font-serif italic font-semibold text-gray-900 dark:text-white">Four Seasons</div>
+            <div className="text-2xl font-serif italic font-semibold text-primary dark:text-white">Four Seasons</div>
           </div>
         </div>
       </section>
 
       {/* Impact Metrics */}
-      <section className="py-24 bg-white dark:bg-black relative overflow-hidden">
+      <section className="py-24 bg-white dark:bg-background-dark relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-gold-400/5 to-transparent pointer-events-none"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center divide-y md:divide-y-0 md:divide-x divide-gray-100 dark:divide-white/10">
@@ -254,7 +254,7 @@ export default function HomePage() {
       </section>
 
       {/* Our Solutions */}
-      <section className="py-24 bg-gray-50 dark:bg-gray-950 relative overflow-hidden" id="solutions">
+      <section className="py-24 bg-background-light dark:bg-background-dark relative overflow-hidden" id="solutions">
         {/* Background Decorative Elements */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-20 dark:opacity-10">
           <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] rounded-full bg-gold-400/20 blur-[120px]"></div>
@@ -509,7 +509,7 @@ export default function HomePage() {
       </section>
 
       {/* Resources */}
-      <section className="py-24 bg-gray-50 dark:bg-gray-950 border-t border-gray-100 dark:border-white/5" id="resources">
+      <section className="py-24 bg-background-light dark:bg-background-dark border-t border-gray-100 dark:border-white/5" id="resources">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

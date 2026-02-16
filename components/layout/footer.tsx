@@ -9,7 +9,7 @@ export function Footer() {
   const t = useTranslations('home.footer');
 
   return (
-    <footer className="bg-gray-950 text-white pt-24 pb-12 border-t border-white/5 relative overflow-hidden">
+    <footer className="bg-background-dark text-white pt-24 pb-12 border-t border-white/5 relative overflow-hidden">
       {/* Decorative background glow */}
       <div className="absolute bottom-0 left-0 w-full h-1/2 bg-[radial-gradient(circle_at_bottom,rgba(212,175,55,0.03)_0%,transparent_70%)] pointer-events-none"></div>
 
