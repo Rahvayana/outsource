@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "bookMeeting": "Book a Meeting"
+  },
+  "home": {
+    "nav": {
+      "solutions": "Solutions",
+      "process": "Process",
+      "services": "Services",
+      "resources": "Resources",
+      "bookMeeting": "Book a Meeting"
+    },
+    "hero": {
+      "badge": "Premium B2B Hospitality",
+      "title": "Hospitality outsourcing services for a",
+      "highlight": "home-like",
+      "titleEnd": "guest experience.",
+      "subtitle": "Elevate your guest interactions with our concierge-level support teams, integrated seamlessly with your brand's ethos.",
+      "ctaPrimary": "Start Your Transformation",
+      "ctaSecondary": "View Showreel"
+    },
+    "trusted": {
+      "title": "Trusted by Global Leaders"
+    },
+    "metrics": {
+      "reviews": ">30%",
+      "reviewsLabel": "Increase in Positive Guest Reviews",
+      "support": "24/7",
+      "supportLabel": "Global Support Availability",
+      "languages": "50+",
+      "languagesLabel": "Languages Fluently Spoken"
+    },
+    "solutions": {
+      "title": "Tailored Hospitality Solutions",
+      "subtitle": "We combine human empathy with technological precision to deliver an unmatched guest journey.",
+      "multilingual": {
+        "title": "Multilingual Agents",
+        "description": "Native speakers in over 50 languages ensuring your guests feel understood and valued, no matter where they are from."
+      },
+      "ai": {
+        "title": "AI Integration",
+        "description": "Smart routing and predictive assistance powered by AI, seamlessly blended with human touchpoints for efficiency."
+      },
+      "concierge": {
+        "title": "Concierge Support",
+        "description": "Premium lifestyle management and booking services that extend your brand's capability beyond the front desk."
+      }
+    },
+    "process": {
+      "badge": "Our Methodology",
+      "title": "The Awesomize Process",
+      "sourcing": {
+        "title": "Sourcing",
+        "description": "Identifying top-tier talent with hospitality DNA."
+      },
+      "training": {
+        "title": "Training",
+        "description": "Immersive brand alignment and skills sharpening."
+      },
+      "integration": {
+        "title": "Integration",
+        "description": "Seamless technical and cultural system merging."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Go-live with dedicated supervision and support."
+      },
+      "growth": {
+        "title": "Growth",
+        "description": "Continuous optimization and scaling."
+      }
+    },
+    "services": {
+      "title": "Comprehensive Services",
+      "subtitle": "Designed to handle every aspect of your operation so you can focus on strategy.",
+      "viewAll": "View Full Catalog",
+      "support": {
+        "title": "Support Operations",
+        "description": "Level 1 & 2 support handling via chat, email, and voice."
+      },
+      "technical": {
+        "title": "Technical Support",
+        "description": "Specialized IT troubleshooting for guest amenities."
+      },
+      "backoffice": {
+        "title": "Back Office",
+        "description": "Data entry, reservation management, and invoicing."
+      },
+      "vip": {
+        "title": "VIP Management",
+        "description": "Dedicated lines and agents for high-value clients."
+      }
+    },
+    "resources": {
+      "title": "Insights & Resources",
+      "hyperPersonalization": {
+        "category": "Strategy",
+        "readTime": "5 Min Read",
+        "imageAlt": "Luxury hotel lobby seating area",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA1Um5DNx4Yajz_e4AiXpMh0am2e9Dp0fdgoG8DU4UynFiurhfjdYUPfPXD04iGu-CaDn8-PyI6Ts8NyYuZIkxyFO_-FoFBAotmaIWLJVgRHbTahn91nBkVx3ByQDJDbzeVDH1ptgENwTUN-EYRhjDJ15ojnhh5cQ3_uronx5jl8ffCLVrkMFzOOzq1AkQ0NAYIKEpeNlx2q3g-wxRZO5jFyYSkERGyHagdBqT3J12HH1o9o_G9mfCa2Qqpo7HscCDCl4iznNUWpGl2",
+        "title": "The Future of Hyper-Personalization in Hospitality",
+        "description": "How data analytics and human intuition are converging to create the next generation of guest experiences."
+      },
+      "humanTouch": {
+        "category": "Operations",
+        "readTime": "4 Min Read",
+        "imageAlt": "Modern pool side view at luxury resort",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBuQxS9wYTB-uuHSRdhG-FUeG1qSsEyaegxsRN9NlSN2hlFvFZ7tJGi-2SmhbcX_-FcI96UUwbhbBIPaLR1OtwrqXGJdTR3Wma6je2gg7dL9ZJ2E8R54rBpLHaZESxBIOFFq_NsExoDIbMEb9vCVeHwO4n78jGPcva1LTsv33vX3g5pSj0e08U58xyuRYyV9uGRltcZEGKvG0X-sgdlu-erk8tmiEhUNC2_ZOc_ZHXurEFN-5q66ZYn1XN8V8omR99eS9c-x3CJXBs9",
+        "title": "Scaling Support Without Losing the 'Human Touch'",
+        "description": "Best practices for expanding your support teams globally while maintaining brand voice consistency."
+      },
+      "luxuryStandard": {
+        "category": "Trends",
+        "readTime": "6 Min Read",
+        "imageAlt": "Waiters pouring champagne in glasses",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDJ0MStbrljFSp2RyO_XVzrIGetWeyBDP4HJQXqXlUvzV8ZdIn-BmiXjIWJDPlJeFM0XS1wgkOOQ-Yfe9PG8NXS-f8FHyJxCEWlGJoSXIENtuEb8RBspCILIk7yawJu6ubZ00bYJ0qbvH7EXF74nSFtb_UOihyJAYqBcQfy4CviMuKpWxaM7OgAQhwZPmkC7PYT3g1tN6EIaKyymBibc0FhT6ykGLwMWGxsN3aEigL_mL_rBKGWYbiVz9n8EQtJ1yot4dj6EOvVhPxd",
+        "title": "Luxury Outsourcing: The New Standard for 5-Star Brands",
+        "description": "Why major hotel chains are moving towards specialized outsourcing partners for operational excellence."
+      }
+    },
+    "footer": {
+      "tagline": "Defining the future of luxury hospitality outsourcing. We deliver excellence, empathy, and efficiency.",
+      "company": "Company",
+      "services": "Services",
+      "newsletter": "Stay Updated",
+      "newsletterText": "Insights on hospitality trends delivered to your inbox.",
+      "emailPlaceholder": "Your work email",
+      "subscribe": "Subscribe",
+      "copyright": "© 2025 EverHelp Inc. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "links": {
+        "about": "About Us",
+        "careers": "Careers",
+        "press": "Press",
+        "contact": "Contact"
+      }
+    }
+  }
+}

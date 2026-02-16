@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EverHelp - Luxury Hospitality Outsourcing</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0a182e",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#121820",
+                        "gold": "#d4af37",
+                        "gold-light": "#e5c567",
+                        "gold-dark": "#b08d26",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "serif": ["Playfair Display", "serif"],
+                        "sans": ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+                    backgroundImage: {
+                        'hero-pattern': "url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80')",
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom Utilities */
+        .glass-header {
+            background: rgba(10, 24, 46, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        
+        .dark .glass-card {
+            background: rgba(18, 24, 32, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .text-gradient-gold {
+            background: linear-gradient(to right, #d4af37, #e5c567);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Subtle Fade In Animation Placeholder */
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Staggered delays for demo purposes */
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-primary dark:text-gray-200 font-display antialiased overflow-x-hidden">
+<!-- Header -->
+<header class="fixed top-0 w-full z-50 glass-header border-b border-white/10 transition-all duration-300">
+<div class="container mx-auto px-6 h-20 flex items-center justify-between">
+<a class="flex items-center gap-2 group" href="#">
+<span class="font-serif text-2xl font-bold text-white tracking-wide group-hover:text-gold transition-colors">EverHelp</span>
+<div class="h-1.5 w-1.5 rounded-full bg-gold mt-1"></div>
+</a>
+<nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
+<a class="hover:text-white transition-colors" href="#solutions">Solutions</a>
+<a class="hover:text-white transition-colors" href="#process">Process</a>
+<a class="hover:text-white transition-colors" href="#services">Services</a>
+<a class="hover:text-white transition-colors" href="#resources">Resources</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden md:block px-6 py-2.5 border border-gold/50 text-gold hover:bg-gold hover:text-primary font-medium text-sm rounded-lg transition-all duration-300 uppercase tracking-wider">
+                    Book a Meeting
+                </button>
+<button class="md:hidden text-white">
+<span class="material-icons">menu</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+<!-- Background Image with Overlay -->
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-primary/70 mix-blend-multiply z-10"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent z-10"></div>
+<img alt="Luxurious dark hotel lobby with warm lighting" class="w-full h-full object-cover" data-alt="Luxurious dark hotel lobby with warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJIhictmlR_8qPxwFRT-7yp8EMg60D9leOyBELJ8OoAQpgUdyIn9CMliXhYLtR-VlbWYKpq1Hp-Z14fQRF2k4CC9YnBDug59ftsBKyrVvOLNsRv4idZ_g6zR06DRwZ2L3QRje0251rQIAM--_A6gyQv1-BgL8SXUkim4_zbM0M2tT1MyhV3lgyA1xxcBEmDP5reQEu-djQxidN-a5DXlyW8-0F4EbpijilwfzqVu2pAfsQkmp7bjug9FFxi6EwI3IaR1AB30anvZu7"/>
+</div>
+<div class="relative z-20 container mx-auto px-6 text-center max-w-5xl fade-in-up">
+<span class="inline-block py-1 px-3 border border-white/20 rounded-full text-xs font-medium text-gray-300 tracking-widest uppercase mb-6 bg-white/5 backdrop-blur-sm">
+                Premium B2B Hospitality
+            </span>
+<h1 class="font-serif text-4xl md:text-6xl lg:text-7xl text-white leading-tight mb-8">
+                Hospitality outsourcing services for a <span class="text-gradient-gold italic">home-like</span> guest experience.
+            </h1>
+<p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+                Elevate your guest interactions with our concierge-level support teams, integrated seamlessly with your brand's ethos.
+            </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="px-8 py-4 bg-gold hover:bg-white text-primary hover:text-primary font-semibold text-sm rounded-lg transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.3)] uppercase tracking-wider w-full sm:w-auto">
+                    Start Your Transformation
+                </button>
+<button class="px-8 py-4 border border-white/30 hover:border-white text-white font-semibold text-sm rounded-lg transition-all duration-300 backdrop-blur-sm uppercase tracking-wider w-full sm:w-auto flex items-center justify-center gap-2 group">
+<span class="material-icons text-gold group-hover:scale-110 transition-transform">play_circle_outline</span>
+                    View Showreel
+                </button>
+</div>
+</div>
+<!-- Scroll Indicator -->
+<div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-20 text-white/50">
+<span class="material-icons text-3xl">keyboard_arrow_down</span>
+</div>
+</section>
+<!-- Trusted By -->
+<section class="py-12 bg-white dark:bg-primary border-b border-gray-100 dark:border-gray-800">
+<div class="container mx-auto px-6">
+<p class="text-center text-xs font-bold text-gray-400 uppercase tracking-widest mb-8">Trusted by Global Leaders</p>
+<div class="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+<!-- Logos using text placeholders for reliability, styled to look like logos -->
+<div class="text-2xl font-serif font-bold text-gray-800 dark:text-gray-300">MARRIOTT</div>
+<div class="text-2xl font-sans font-black tracking-tighter text-gray-800 dark:text-gray-300 italic">HILTON</div>
+<div class="text-xl font-serif uppercase tracking-widest text-gray-800 dark:text-gray-300 border-2 border-gray-800 dark:border-gray-300 p-1">Hyatt</div>
+<div class="text-2xl font-sans font-bold text-gray-800 dark:text-gray-300 flex items-center gap-1"><span class="block w-6 h-6 bg-gray-800 dark:bg-gray-300 rounded-full"></span> ACCOR</div>
+<div class="text-2xl font-serif italic font-semibold text-gray-800 dark:text-gray-300">Four Seasons</div>
+</div>
+</div>
+</section>
+<!-- Impact Metrics -->
+<section class="py-24 bg-background-light dark:bg-background-dark relative overflow-hidden">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-gray-100/50 to-transparent dark:from-white/5 pointer-events-none"></div>
+<div class="container mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center divide-y md:divide-y-0 md:divide-x divide-gray-200 dark:divide-gray-800">
+<div class="px-6 py-4 fade-in-up delay-100">
+<div class="font-serif text-5xl md:text-6xl text-gold mb-2 leading-none">&gt;30%</div>
+<p class="text-gray-600 dark:text-gray-400 font-medium">Increase in Positive Guest Reviews</p>
+</div>
+<div class="px-6 py-4 fade-in-up delay-200">
+<div class="font-serif text-5xl md:text-6xl text-gold mb-2 leading-none">24/7</div>
+<p class="text-gray-600 dark:text-gray-400 font-medium">Global Support Availability</p>
+</div>
+<div class="px-6 py-4 fade-in-up delay-300">
+<div class="font-serif text-5xl md:text-6xl text-gold mb-2 leading-none">50+</div>
+<p class="text-gray-600 dark:text-gray-400 font-medium">Languages Fluently Spoken</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Solutions -->
+<section class="py-24 bg-white dark:bg-primary" id="solutions">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center mb-20">
+<h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-primary dark:text-white mb-6">Tailored Hospitality Solutions</h2>
+<p class="text-gray-600 dark:text-gray-400 text-lg">We combine human empathy with technological precision to deliver an unmatched guest journey.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="group relative bg-background-light dark:bg-background-dark p-8 rounded-xl border border-gray-100 dark:border-gray-800 hover:border-gold/30 hover:shadow-xl hover:shadow-gold/5 transition-all duration-300 overflow-hidden fade-in-up delay-100">
+<div class="absolute -right-10 -top-10 w-40 h-40 bg-gold/5 rounded-full group-hover:bg-gold/10 transition-colors"></div>
+<div class="w-12 h-12 rounded-lg bg-primary/5 dark:bg-white/5 flex items-center justify-center text-gold mb-6 relative z-10">
+<span class="material-icons text-3xl">translate</span>
+</div>
+<h3 class="font-serif text-2xl text-primary dark:text-white mb-3 group-hover:text-gold transition-colors relative z-10">Multilingual Agents</h3>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed relative z-10">
+                        Native speakers in over 50 languages ensuring your guests feel understood and valued, no matter where they are from.
+                    </p>
+</div>
+<!-- Card 2 -->
+<div class="group relative bg-background-light dark:bg-background-dark p-8 rounded-xl border border-gray-100 dark:border-gray-800 hover:border-gold/30 hover:shadow-xl hover:shadow-gold/5 transition-all duration-300 overflow-hidden fade-in-up delay-200">
+<div class="absolute -right-10 -top-10 w-40 h-40 bg-gold/5 rounded-full group-hover:bg-gold/10 transition-colors"></div>
+<div class="w-12 h-12 rounded-lg bg-primary/5 dark:bg-white/5 flex items-center justify-center text-gold mb-6 relative z-10">
+<span class="material-icons text-3xl">psychology</span>
+</div>
+<h3 class="font-serif text-2xl text-primary dark:text-white mb-3 group-hover:text-gold transition-colors relative z-10">AI Integration</h3>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed relative z-10">
+                        Smart routing and predictive assistance powered by AI, seamlessly blended with human touchpoints for efficiency.
+                    </p>
+</div>
+<!-- Card 3 -->
+<div class="group relative bg-background-light dark:bg-background-dark p-8 rounded-xl border border-gray-100 dark:border-gray-800 hover:border-gold/30 hover:shadow-xl hover:shadow-gold/5 transition-all duration-300 overflow-hidden fade-in-up delay-300">
+<div class="absolute -right-10 -top-10 w-40 h-40 bg-gold/5 rounded-full group-hover:bg-gold/10 transition-colors"></div>
+<div class="w-12 h-12 rounded-lg bg-primary/5 dark:bg-white/5 flex items-center justify-center text-gold mb-6 relative z-10">
+<span class="material-icons text-3xl">concierge</span>
+</div>
+<h3 class="font-serif text-2xl text-primary dark:text-white mb-3 group-hover:text-gold transition-colors relative z-10">Concierge Support</h3>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed relative z-10">
+                        Premium lifestyle management and booking services that extend your brand's capability beyond the front desk.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Awesomize Process -->
+<section class="py-24 bg-primary text-white relative overflow-hidden" id="process">
+<!-- Abstract background pattern -->
+<div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0); background-size: 40px 40px;"></div>
+<div class="container mx-auto px-6 relative z-10">
+<div class="text-center mb-20">
+<span class="text-gold uppercase tracking-widest text-sm font-semibold mb-2 block">Our Methodology</span>
+<h2 class="font-serif text-3xl md:text-5xl mb-6">The Awesomize Process</h2>
+<div class="w-24 h-1 bg-gold mx-auto"></div>
+</div>
+<!-- Timeline for Desktop -->
+<div class="hidden lg:block relative pb-12">
+<!-- Connecting Line -->
+<div class="absolute top-1/2 left-0 w-full h-px bg-white/20 -translate-y-1/2"></div>
+<div class="grid grid-cols-5 gap-4">
+<!-- Step 1 -->
+<div class="relative flex flex-col items-center group">
+<div class="w-4 h-4 rounded-full bg-primary border-2 border-gold z-10 mb-8 transition-transform group-hover:scale-150"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[200%] opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:-translate-y-[220%]">
+<span class="text-gold font-serif text-5xl opacity-20">01</span>
+</div>
+<h4 class="font-serif text-xl mb-2 text-gold">Sourcing</h4>
+<p class="text-center text-sm text-gray-400 px-2">Identifying top-tier talent with hospitality DNA.</p>
+</div>
+<!-- Step 2 -->
+<div class="relative flex flex-col items-center group">
+<div class="w-4 h-4 rounded-full bg-primary border-2 border-white/30 group-hover:border-gold z-10 mb-8 transition-colors duration-300 group-hover:bg-gold"></div>
+<h4 class="font-serif text-xl mb-2 group-hover:text-gold transition-colors">Training</h4>
+<p class="text-center text-sm text-gray-400 px-2">Immersive brand alignment and skills sharpening.</p>
+</div>
+<!-- Step 3 -->
+<div class="relative flex flex-col items-center group">
+<div class="w-4 h-4 rounded-full bg-primary border-2 border-white/30 group-hover:border-gold z-10 mb-8 transition-colors duration-300 group-hover:bg-gold"></div>
+<h4 class="font-serif text-xl mb-2 group-hover:text-gold transition-colors">Integration</h4>
+<p class="text-center text-sm text-gray-400 px-2">Seamless technical and cultural system merging.</p>
+</div>
+<!-- Step 4 -->
+<div class="relative flex flex-col items-center group">
+<div class="w-4 h-4 rounded-full bg-primary border-2 border-white/30 group-hover:border-gold z-10 mb-8 transition-colors duration-300 group-hover:bg-gold"></div>
+<h4 class="font-serif text-xl mb-2 group-hover:text-gold transition-colors">Launch</h4>
+<p class="text-center text-sm text-gray-400 px-2">Go-live with dedicated supervision and support.</p>
+</div>
+<!-- Step 5 -->
+<div class="relative flex flex-col items-center group">
+<div class="w-4 h-4 rounded-full bg-primary border-2 border-white/30 group-hover:border-gold z-10 mb-8 transition-colors duration-300 group-hover:bg-gold"></div>
+<h4 class="font-serif text-xl mb-2 group-hover:text-gold transition-colors">Growth</h4>
+<p class="text-center text-sm text-gray-400 px-2">Continuous optimization and scaling.</p>
+</div>
+</div>
+</div>
+<!-- Vertical Timeline for Mobile -->
+<div class="lg:hidden space-y-8 pl-4 border-l border-white/20">
+<!-- Step 1 -->
+<div class="relative pl-8">
+<div class="absolute -left-[21px] top-1 w-4 h-4 rounded-full bg-primary border-2 border-gold"></div>
+<h4 class="font-serif text-xl mb-1 text-gold">Sourcing</h4>
+<p class="text-sm text-gray-400">Identifying top-tier talent with hospitality DNA.</p>
+</div>
+<!-- Step 2 -->
+<div class="relative pl-8">
+<div class="absolute -left-[21px] top-1 w-4 h-4 rounded-full bg-primary border-2 border-white/30"></div>
+<h4 class="font-serif text-xl mb-1 text-white">Training</h4>
+<p class="text-sm text-gray-400">Immersive brand alignment and skills sharpening.</p>
+</div>
+<!-- Step 3 -->
+<div class="relative pl-8">
+<div class="absolute -left-[21px] top-1 w-4 h-4 rounded-full bg-primary border-2 border-white/30"></div>
+<h4 class="font-serif text-xl mb-1 text-white">Integration</h4>
+<p class="text-sm text-gray-400">Seamless technical and cultural system merging.</p>
+</div>
+<!-- Step 4 -->
+<div class="relative pl-8">
+<div class="absolute -left-[21px] top-1 w-4 h-4 rounded-full bg-primary border-2 border-white/30"></div>
+<h4 class="font-serif text-xl mb-1 text-white">Launch</h4>
+<p class="text-sm text-gray-400">Go-live with dedicated supervision and support.</p>
+</div>
+<!-- Step 5 -->
+<div class="relative pl-8">
+<div class="absolute -left-[21px] top-1 w-4 h-4 rounded-full bg-primary border-2 border-white/30"></div>
+<h4 class="font-serif text-xl mb-1 text-white">Growth</h4>
+<p class="text-sm text-gray-400">Continuous optimization and scaling.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="py-24 bg-background-light dark:bg-background-dark" id="services">
+<div class="container mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="font-serif text-4xl text-primary dark:text-white mb-4">Comprehensive Services</h2>
+<p class="text-gray-500 dark:text-gray-400">Designed to handle every aspect of your operation so you can focus on strategy.</p>
+</div>
+<a class="text-gold font-medium hover:text-gold-dark flex items-center gap-2 group" href="#">
+                    View Full Catalog 
+                    <span class="material-icons text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Service Item 1 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow border-t-4 border-transparent hover:border-gold">
+<h4 class="font-serif text-lg font-semibold text-primary dark:text-white mb-2">Support Operations</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Level 1 &amp; 2 support handling via chat, email, and voice.</p>
+</div>
+<!-- Service Item 2 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow border-t-4 border-transparent hover:border-gold">
+<h4 class="font-serif text-lg font-semibold text-primary dark:text-white mb-2">Technical Support</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Specialized IT troubleshooting for guest amenities.</p>
+</div>
+<!-- Service Item 3 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow border-t-4 border-transparent hover:border-gold">
+<h4 class="font-serif text-lg font-semibold text-primary dark:text-white mb-2">Back Office</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Data entry, reservation management, and invoicing.</p>
+</div>
+<!-- Service Item 4 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow border-t-4 border-transparent hover:border-gold">
+<h4 class="font-serif text-lg font-semibold text-primary dark:text-white mb-2">VIP Management</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Dedicated lines and agents for high-value clients.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Resources -->
+<section class="py-24 bg-white dark:bg-primary border-t border-gray-100 dark:border-gray-800" id="resources">
+<div class="container mx-auto px-6">
+<h2 class="font-serif text-4xl text-center text-primary dark:text-white mb-16">Insights &amp; Resources</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<!-- Blog 1 -->
+<article class="group cursor-pointer fade-in-up delay-100">
+<div class="relative overflow-hidden rounded-lg mb-6 h-64">
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/0 transition-colors z-10"></div>
+<img alt="Luxury hotel lobby seating area" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" data-alt="Luxury hotel lobby seating area" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1Um5DNx4Yajz_e4AiXpMh0am2e9Dp0fdgoG8DU4UynFiurhfjdYUPfPXD04iGu-CaDn8-PyI6Ts8NyYuZIkxyFO_-FoFBAotmaIWLJVgRHbTahn91nBkVx3ByQDJDbzeVDH1ptgENwTUN-EYRhjDJ15ojnhh5cQ3_uronx5jl8ffCLVrkMFzOOzq1AkQ0NAYIKEpeNlx2q3g-wxRZO5jFyYSkERGyHagdBqT3J12HH1o9o_G9mfCa2Qqpo7HscCDCl4iznNUWpGl2"/>
+</div>
+<div class="flex items-center gap-3 text-xs text-gold font-bold uppercase tracking-wider mb-3">
+<span>Strategy</span>
+<div class="w-1 h-1 rounded-full bg-gray-300"></div>
+<span>5 Min Read</span>
+</div>
+<h3 class="font-serif text-2xl text-primary dark:text-white mb-3 group-hover:text-gold transition-colors leading-tight">
+                        The Future of Hyper-Personalization in Hospitality
+                    </h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm line-clamp-2">
+                        How data analytics and human intuition are converging to create the next generation of guest experiences.
+                    </p>
+</article>
+<!-- Blog 2 -->
+<article class="group cursor-pointer fade-in-up delay-200">
+<div class="relative overflow-hidden rounded-lg mb-6 h-64">
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/0 transition-colors z-10"></div>
+<img alt="Modern pool side view at luxury resort" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" data-alt="Modern pool side view at luxury resort" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuQxS9wYTB-uuHSRdhG-FUeG1qSsEyaegxsRN9NlSN2hlFvFZ7tJGi-2SmhbcX_-FcI96UUwbhbBIPaLR1OtwrqXGJdTR3Wma6je2gg7dL9ZJ2E8R54rBpLHaZESxBIOFFq_NsExoDIbMEb9vCVeHwO4n78jGPcva1LTsv33vX3g5pSj0e08U58xyuRYyV9uGRltcZEGKvG0X-sgdlu-erk8tmiEhUNC2_ZOc_ZHXurEFN-5q66ZYn1XN8V8omR99eS9c-x3CJXBs9"/>
+</div>
+<div class="flex items-center gap-3 text-xs text-gold font-bold uppercase tracking-wider mb-3">
+<span>Operations</span>
+<div class="w-1 h-1 rounded-full bg-gray-300"></div>
+<span>4 Min Read</span>
+</div>
+<h3 class="font-serif text-2xl text-primary dark:text-white mb-3 group-hover:text-gold transition-colors leading-tight">
+                        Scaling Support Without Losing the 'Human Touch'
+                    </h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm line-clamp-2">
+                        Best practices for expanding your support teams globally while maintaining brand voice consistency.
+                    </p>
+</article>
+<!-- Blog 3 -->
+<article class="group cursor-pointer fade-in-up delay-300">
+<div class="relative overflow-hidden rounded-lg mb-6 h-64">
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/0 transition-colors z-10"></div>
+<img alt="Waiters pouring champagne in glasses" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" data-alt="Waiters pouring champagne in glasses" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJ0MStbrljFSp2RyO_XVzrIGetWeyBDP4HJQXqXlUvzV8ZdIn-BmiXjIWJDPlJeFM0XS1wgkOOQ-Yfe9PG8NXS-f8FHyJxCEWlGJoSXIENtuEb8RBspCILIk7yawJu6ubZ00bYJ0qbvH7EXF74nSFtb_UOihyJAYqBcQfy4CviMuKpWxaM7OgAQhwZPmkC7PYT3g1tN6EIaKyymBibc0FhT6ykGLwMWGxsN3aEigL_mL_rBKGWYbiVz9n8EQtJ1yot4dj6EOvVhPxd"/>
+</div>
+<div class="flex items-center gap-3 text-xs text-gold font-bold uppercase tracking-wider mb-3">
+<span>Trends</span>
+<div class="w-1 h-1 rounded-full bg-gray-300"></div>
+<span>6 Min Read</span>
+</div>
+<h3 class="font-serif text-2xl text-primary dark:text-white mb-3 group-hover:text-gold transition-colors leading-tight">
+                        Luxury Outsourcing: The New Standard for 5-Star Brands
+                    </h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm line-clamp-2">
+                        Why major hotel chains are moving towards specialized outsourcing partners for operational excellence.
+                    </p>
+</article>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-primary text-white pt-20 pb-10 border-t border-white/5">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<!-- Brand -->
+<div class="space-y-6">
+<a class="flex items-center gap-2" href="#">
+<span class="font-serif text-3xl font-bold tracking-wide">EverHelp</span>
+<div class="h-1.5 w-1.5 rounded-full bg-gold mt-1"></div>
+</a>
+<p class="text-gray-400 text-sm leading-relaxed max-w-xs">
+                        Defining the future of luxury hospitality outsourcing. We deliver excellence, empathy, and efficiency.
+                    </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all" href="#"><span class="material-icons text-sm">facebook</span></a>
+<a class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all" href="#">
+<!-- Simple X icon text fallback as material icons might not have it -->
+<span class="font-bold text-xs">X</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all" href="#"><span class="material-icons text-sm">link</span></a>
+</div>
+</div>
+<!-- Links -->
+<div>
+<h4 class="font-serif text-lg mb-6 text-gold">Company</h4>
+<ul class="space-y-4 text-sm text-gray-400">
+<li><a class="hover:text-white transition-colors" href="#">About Us</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Careers</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Press</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+<!-- Links -->
+<div>
+<h4 class="font-serif text-lg mb-6 text-gold">Services</h4>
+<ul class="space-y-4 text-sm text-gray-400">
+<li><a class="hover:text-white transition-colors" href="#">Customer Support</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Back Office</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Technical Helpdesk</a></li>
+<li><a class="hover:text-white transition-colors" href="#">VIP Concierge</a></li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h4 class="font-serif text-lg mb-6 text-gold">Stay Updated</h4>
+<p class="text-gray-400 text-sm mb-4">Insights on hospitality trends delivered to your inbox.</p>
+<form class="flex flex-col gap-3">
+<input class="bg-white/5 border border-white/10 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-gold transition-colors placeholder-gray-500" placeholder="Your work email" type="email"/>
+<button class="bg-gold text-primary font-bold uppercase text-xs tracking-wider py-3 px-4 rounded hover:bg-white transition-colors" type="button">
+                            Subscribe
+                        </button>
+</form>
+</div>
+</div>
+<div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+<p>© 2023 EverHelp Inc. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="hover:text-gray-300" href="#">Privacy Policy</a>
+<a class="hover:text-gray-300" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Initialize Fade Animations -->
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Simple Intersection Observer for fade-in elements
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationPlayState = 'running';
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            // Select elements with 'fade-in-up' class
+            // Note: In CSS above, animations are set to run immediately. 
+            // Ideally, we'd add a paused state or a specific class to trigger.
+            // For this output, we rely on standard CSS animations, but this script block 
+            // is a placeholder for where interactive logic would go in a real app.
+        });
+    </script>
+</body></html>

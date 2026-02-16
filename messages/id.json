@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "bookMeeting": "Jadwalkan Pertemuan"
+  },
+  "home": {
+    "nav": {
+      "solutions": "Solusi",
+      "process": "Proses",
+      "services": "Layanan",
+      "resources": "Sumber Daya",
+      "bookMeeting": "Jadwalkan Pertemuan"
+    },
+    "hero": {
+      "badge": "B2B Perhotelan Premium",
+      "title": "Layanan outsourcing perhotelan untuk pengalaman tamu",
+      "highlight": "seperti di rumah",
+      "titleEnd": ".",
+      "subtitle": "Tingkatkan interaksi tamu Anda dengan tim support tingkat concierge kami, terintegrasi sempurna dengan etos brand Anda.",
+      "ctaPrimary": "Mulai Transformasi Anda",
+      "ctaSecondary": "Tonton Showreel"
+    },
+    "trusted": {
+      "title": "Dipercaya oleh Pemimpin Global"
+    },
+    "metrics": {
+      "reviews": ">30%",
+      "reviewsLabel": "Peningkatan Ulasan Tamu Positif",
+      "support": "24/7",
+      "supportLabel": "Ketersediaan Support Global",
+      "languages": "50+",
+      "languagesLabel": "Bahasa yang Fasih Dituturkan"
+    },
+    "solutions": {
+      "title": "Solusi Perhotelan yang Disesuaikan",
+      "subtitle": "Kami menggabungkan empati manusia dengan presisi teknologi untuk memberikan perjalanan tamu yang tak tertandingi.",
+      "multilingual": {
+        "title": "Agen Multibahasa",
+        "description": "Penutur asli dalam lebih dari 50 bahasa memastikan tamu Anda merasa dimengerti dan dihargai, dari mana pun mereka berasal."
+      },
+      "ai": {
+        "title": "Integrasi AI",
+        "description": "Routing cerdas dan bantuan prediktif bertenaga AI, terblending sempurna dengan titik sentuhan manusia untuk efisiensi."
+      },
+      "concierge": {
+        "title": "Support Concierge",
+        "description": "Manajemen gaya hidup premium dan layanan pemesanan yang memperluas kemampuan brand Anda di luar front desk."
+      }
+    },
+    "process": {
+      "badge": "Metodologi Kami",
+      "title": "Proses Awesomize",
+      "sourcing": {
+        "title": "Sourcing",
+        "description": "Mengidentifikasi talent terbaik dengan DNA perhotelan."
+      },
+      "training": {
+        "title": "Pelatihan",
+        "description": "Penyelarapan brand mendalam dan pengasahan keahlian."
+      },
+      "integration": {
+        "title": "Integrasi",
+        "description": "Penggabungan sistem teknis dan budaya yang sempurna."
+      },
+      "launch": {
+        "title": "Peluncuran",
+        "description": "Go-live dengan supervisi dan support dedikasi."
+      },
+      "growth": {
+        "title": "Pertumbuhan",
+        "description": "Optimasi dan scaling berkelanjutan."
+      }
+    },
+    "services": {
+      "title": "Layanan Komprehensif",
+      "subtitle": "Dirancang untuk menangani setiap aspek operasi Anda sehingga Anda dapat fokus pada strategi.",
+      "viewAll": "Lihat Katalog Lengkap",
+      "support": {
+        "title": "Operasi Support",
+        "description": "Penanganan support Level 1 & 2 melalui chat, email, dan suara."
+      },
+      "technical": {
+        "title": "Support Teknis",
+        "description": "Pemecahan masalah IT khusus untuk fasilitas tamu."
+      },
+      "backoffice": {
+        "title": "Back Office",
+        "description": "Entri data, manajemen reservasi, dan invoicing."
+      },
+      "vip": {
+        "title": "Manajemen VIP",
+        "description": "Line dan agen dedikasi untuk klien bernilai tinggi."
+      }
+    },
+    "resources": {
+      "title": "Wawasan & Sumber Daya",
+      "hyperPersonalization": {
+        "category": "Strategi",
+        "readTime": "5 Menit Baca",
+        "imageAlt": "Area duduk lobi hotel mewah",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA1Um5DNx4Yajz_e4AiXpMh0am2e9Dp0fdgoG8DU4UynFiurhfjdYUPfPXD04iGu-CaDn8-PyI6Ts8NyYuZIkxyFO_-FoFBAotmaIWLJVgRHbTahn91nBkVx3ByQDJDbzeVDH1ptgENwTUN-EYRhjDJ15ojnhh5cQ3_uronx5jl8ffCLVrkMFzOOzq1AkQ0NAYIKEpeNlx2q3g-wxRZO5jFyYSkERGyHagdBqT3J12HH1o9o_G9mfCa2Qqpo7HscCDCl4iznNUWpGl2",
+        "title": "Masa Depan Hyper-Personalisasi dalam Perhotelan",
+        "description": "Bagaimana analitik data dan intuisi manusia konvergen untuk menciptasi generasi berikutnya dari pengalaman tamu."
+      },
+      "humanTouch": {
+        "category": "Operasi",
+        "readTime": "4 Menit Baca",
+        "imageAlt": "Tampilan sisi kolam renang modern di resor mewah",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBuQxS9wYTB-uuHSRdhG-FUeG1qSsEyaegxsRN9NlSN2hlFvFZ7tJGi-2SmhbcX_-FcI96UUwbhbBIPaLR1OtwrqXGJdTR3Wma6je2gg7dL9ZJ2E8R54rBpLHaZESxBIOFFq_NsExoDIbMEb9vCVeHwO4n78jGPcva1LTsv33vX3g5pSj0e08U58xyuRYyV9uGRltcZEGKvG0X-sgdlu-erk8tmiEhUNC2_ZOc_ZHXurEFN-5q66ZYn1XN8V8omR99eS9c-x3CJXBs9",
+        "title": "Scaling Support Tanpa Kehilangan 'Sentuhan Manusia'",
+        "description": "Praktik terbaik untuk memperluas tim support global Anda sambil mempertahankan konsistensi suara brand."
+      },
+      "luxuryStandard": {
+        "category": "Tren",
+        "readTime": "6 Menit Baca",
+        "imageAlt": "Pelayan menuangkan champagne ke dalam gelas",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDJ0MStbrljFSp2RyO_XVzrIGetWeyBDP4HJQXqXlUvzV8ZdIn-BmiXjIWJDPlJeFM0XS1wgkOOQ-Yfe9PG8NXS-f8FHyJxCEWlGJoSXIENtuEb8RBspCILIk7yawJu6ubZ00bYJ0qbvH7EXF74nSFtb_UOihyJAYqBcQfy4CviMuKpWxaM7OgAQhwZPmkC7PYT3g1tN6EIaKyymBibc0FhT6ykGLwMWGxsN3aEigL_mL_rBKGWYbiVz9n8EQtJ1yot4dj6EOvVhPxd",
+        "title": "Outsourcing Mewah: Standar Baru untuk Brand 5-Bintang",
+        "description": "Mengapa rantai hotel besar beralih ke mitra outsourcing khusus untuk keunggulan operasional."
+      }
+    },
+    "footer": {
+      "tagline": "Mendefinisikan masa depan outsourcing perhotelan mewah. Kami memberikan keunggulan, empati, dan efisiensi.",
+      "company": "Perusahaan",
+      "services": "Layanan",
+      "newsletter": "Tetap Terupdate",
+      "newsletterText": "Wawasan tentang tren perhotelan dikirim ke inbox Anda.",
+      "emailPlaceholder": "Email kerja Anda",
+      "subscribe": "Berlangganan",
+      "copyright": "© 2025 EverHelp Inc. Hak cipta dilindungi.",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Syarat & Ketentuan",
+      "links": {
+        "about": "Tentang Kami",
+        "careers": "Karir",
+        "press": "Pers",
+        "contact": "Kontak"
+      }
+    }
+  }
+}
